@@ -1,35 +1,25 @@
 {
-    "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "NetUpdate",
-    "description": "A theme that makes KiCad truly beautiful",
-    "description_full": "I came up with this theme in a dream one night.",
-    "identifier": "com.github.kicad-user.kicad-beautiful-theme",
-    "type": "colortheme",
+    "description": "Updates netclass colors",
+    "description_full": "Updates the netclasses in the .kicad_pro file to match the schematic colors.",
+    "identifier": "com.github.cuprum77.kicad-netupdate",
+    "type": "plugin",
     "author": {
-        "name": "KiCad User",
+        "name": "Cuprum",
         "contact": {
-            "web": "https://mywebsite.com"
+            "web": "https://cuprum.no",
+            "github": "https://github.com/Cuprum77"
         }
     },
-    "maintainer": {
-        "name": "KiCad User",
-        "contact": {
-            "web": "https://mywebsite.com"
-        }
-    },
-    "license": "CC0-1.0",
+    "license": "Unlicense",
     "resources": {
-        "homepage": "https://github.com/kicad-user/kicad-beautiful-theme"
+        "homepage": "https://github.com/Cuprum77/kicad-netupdate"
     },
     "versions": [
         {
             "version": "1.0",
-            "status": "stable",
-            "kicad_version": "5.99",
-            "download_sha256": "YOUR_SHA256_HERE",
-            "download_size": 1234,
-            "download_url": "https://github.com/YOUR/DOWNLOAD/URL/kicad-beautiful-theme.zip",
-            "install_size": 5678
+            "status": "development",
+            "kicad_version": "8.0.5"
         }
     ]
 }

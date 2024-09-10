@@ -1,1 +1,2 @@
-from .schem2pcb import netupdate
+from .netupdate import netupdate
+netupdate().register()

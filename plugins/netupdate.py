@@ -13,7 +13,7 @@ class netupdate(pcbnew.ActionPlugin):
         self.category = "Modify PCB"
         self.description = "Updates the netclasses in the .kicad_pro file to match the schematic colors."
         self.show_toolbar_button = True
-        self.icon_file_name = os.path.join(os.path.dirname(__file__), "./resources/icon.png")
+        self.icon_file_name = os.path.join(os.path.dirname(__file__), "icon.png")
 
 
     def find_pro_file(self, pcb_path):
@@ -67,6 +67,3 @@ class netupdate(pcbnew.ActionPlugin):
             return
 
         self.update_kicad_pro(pro_file, board)
-                
-
-netupdate().register()
