@@ -1,0 +1,1 @@
+from .schem2pcb import netupdate
